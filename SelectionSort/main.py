@@ -1,16 +1,23 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+
+def selection_sort(list_a):
+    indexing_length = range(0, len(list_a) - 1)
+
+    for i in indexing_length:
+        min_value = i
+        for j in range(i + 1, len(list_a)):
+            if list_a[j] < list_a[min_value]:
+                min_value = j
+
+        if min_value != i:
+            list_a[min_value], list_a[i] = list_a[i], list_a[min_value]
+
+    return list_a
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+unsorted_list = [4, 5, 7, 2, 6, 3, 1, 10]
+
+print(selection_sort(unsorted_list))
