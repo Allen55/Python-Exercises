@@ -1,3 +1,31 @@
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+
+    while low < high:
+        mid = (high + low) // 2 # 11
+
+        if (arr[mid] < target):
+            low = mid + 1
+        elif arr[mid] > target:
+            high = mid - 1
+        else:
+            return mid
+
+
+array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+target = 18
+
+print("Target ", target, " found at index ", binary_search(array, target))
+
+
+
+
+
+
+
+
+
 
 
 
