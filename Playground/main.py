@@ -1,23 +1,40 @@
+import math
+"""
+Given an array of positive numbers and a positive number ‘S,’ find the length of the smallest contiguous subarray 
+whose sum is greater than or equal to ‘S’. Return 0 if no such subarray exists.
+
+Example 1:
+
+Input: [2, 1, 5, 2, 3, 2], S=7
+             [       ]
+Output: 2
+Explanation: The smallest subarray with a sum greater than or equal to ‘7’ is [5, 2].
+
+Example 2:
+
+Input: [2, 1, 5, 2, 8], S=7
+Output: 1
+Explanation: The smallest subarray with a sum greater than or equal to ‘7’ is [8].
+"""
 
 
-def binary_search(array, target):
+def smallest_subarray_sum(s, arr):
+    window_sum, window_start = 0, 0
+    min_length = math.inf
 
-    left = 0
-    right = len(array) - 1
-
-    while left < right:
-
-        mid = (left + right) // 2
-
-        if array[mid] < target:
-            left = mid + 1
-        elif array[mid] > target:
-            right = mid - 1
-        else:
-            return mid
-
-    return -1
+    for window_end in range(0, len(arr)):
+        window_sum += arr[window_end]                       # 2 -> 3 -> 8     1,5,2 -> 8
+        while window_sum >= s:
+            current_length = window_end - window_start + 1  # 1 -> 1          3 - 1 -> 2   3 - 2 -> 1
+            min_length = min(min_length, current_length)    # inf vs 1 -> 1   1, 2  -> 1   1 , 1 -> 1
+            window_sum -= arr[window_start]                 # 8 - 2 = 6       8 - 1 -> 7
+            window_start += 1                               # 1               2
+    if min_length == math.inf:
+        return 0
+    return min_length
 
 
 
-print(binary_search([5,6,7,8,9,10,11,12,13,14,15,16], 13))
+print("Smallest subarray length: " + str(smallest_subarray_sum(7, [2, 1, 5, 2, 3, 2])))
+print("Smallest subarray length: " + str(smallest_subarray_sum(7, [2, 1, 5, 2, 8])))
+print("Smallest subarray length: " + str(smallest_subarray_sum(8, [3, 4, 1, 1, 6])))

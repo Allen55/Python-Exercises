@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aede1f3-c007-461c-b717-52ae16a960a6" name="Changes" comment="selection sort">
-      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/BinarySearch.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinarySearch/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/LinkedLists/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/LinkedLists/.idea/LinkedLists.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/LinkedLists/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/LinkedLists/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/LinkedLists/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/LinkedLists/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/LinkedLists/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/TwoSum/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/TwoSum/.idea/TwoSum.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/TwoSum/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/TwoSum/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/TwoSum/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/TwoSum/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/TwoSum/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SelectionSort.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +27,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -94,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650405518143</updated>
       <workItem from="1650405521397" duration="3803000" />
+      <workItem from="1651000194252" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="binary">
       <created>1650405545803</created>
