@@ -1,4 +1,3 @@
-
 def isPalindrome(s):
     word = ''.join(ch for ch in s if ch.isalnum()).lower()
     length = len(word)
